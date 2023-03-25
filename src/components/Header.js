@@ -25,11 +25,11 @@ const Header = () => {
       <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static md:ml-[36rem] bg-white md:z-auto  z-[-1] left-0 w-44 md:w-auto md:pl-0 pl-9  transition-all duration-500  ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
         
            
-           <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className='w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400' to="/skills">Skills</Link></li>
-            <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" to="/education">Education</Link></li>
+           <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className='w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400' onClick={()=>setOpen(!open)} to="/skills">Skills</Link></li>
+            <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" onClick={()=>setOpen(!open)} to="/education">Education</Link></li>
             {/* <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" to="/experience">Experience</Link></li> */}
-            <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" to="/projects">Projects</Link></li>
-            <li className='my-4 text-xl md:ml-8 md:my-0'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" to="/aboutMe">About Me</Link></li>
+            <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" onClick={()=>setOpen(!open)} to="/projects">Projects</Link></li>
+            <li className='my-4 text-xl md:ml-8 md:my-0'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400"onClick={()=>setOpen(!open)}  to="/aboutMe">About Me</Link></li>
         </ul>
     </div>
     </div>
