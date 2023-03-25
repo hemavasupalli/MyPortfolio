@@ -29,7 +29,7 @@ const Header = () => {
             <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" onClick={()=>setOpen(!open)} to="/education">Education</Link></li>
             {/* <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" to="/experience">Experience</Link></li> */}
             <li className='text-xl md:ml-8 md:my-0 my-7'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400" onClick={()=>setOpen(!open)} to="/projects">Projects</Link></li>
-            <li className='my-4 text-xl md:ml-8 md:my-0'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400"onClick={()=>setOpen(!open)}  to="/aboutMe">About Me</Link></li>
+            <li className='my-4 text-xl md:ml-8 md:my-0'><Link  className="w-20 px-3 text-gray-800 duration-500 hover:shadow-xl rounded-3xl hover:bg-orange-400"onClick={()=>setOpen(!open)}  to="/aboutMe">Contact Me</Link></li>
         </ul>
     </div>
     </div>
