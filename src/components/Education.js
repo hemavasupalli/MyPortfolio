@@ -11,7 +11,7 @@ const Education = () => {
             <div className="text-lg font-bold text-orange-600"> Btech in CSE</div>
             <div className="text-sm ">July 2014 - April 2018</div>
           </div>
-          <h1 className="pt-10 mb-2">Computer Science Of Engineering</h1>
+          <h1 className="pt-10 mb-2">Computer  Of Engineering</h1>
           <h1 className="mb-2">Gitam University</h1>
           <h1 className="mb-2">📍 Vizag, India</h1>
         </div>
